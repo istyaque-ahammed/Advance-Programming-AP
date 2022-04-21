@@ -1,0 +1,61 @@
+Name       :  Istyaque Ahammed
+SID          :  200240
+Course     :  Advanced Programming (CSE-2113)
+Date         :  21.04.2022
+Dual Boot [Ubuntu & Windows]
+
+Implementation:
+We had given a task to install the Ubuntu operating system on dual boot alongside Windows 10. The steps we follow in below.
+    • Downloaded Ubuntu 20.04.4 LTS .iso file, which is the latest version of ubuntu.
+    • Using Rufus 3.18, we create a USB bootable pen drive.
+    • We allocated some free space from our hard disk for installing Ubuntu.
+    • Then we restarted our PC and selected install ubuntu from the boot menu.
+    •  We had to boot manually from BIOS/UEFI.
+    • Then we followed some procedure
+Install Ubuntu       Keyboard Layout	       Normal installation        Install Ubuntu alongside windows	   Select Time Zone
+    • After that, we create a User Account.
+    • Finally, the Ubuntu installing completed. Then we had to restart our PC removing the USB pen drive. 
+Hindrance & Overcome:
+For installing Ubuntu we faced some problems. Here we discuss the problem and its solving.
+    • For allocating memory we do not have free spaces. So, we need to shrink a volume or delete a volume.
+    • After restarting PC did not automatically go to the boot menu. So, manually we have to press the F12 button from the keyboard.
+Advantage:
+Let's take a look at the advantages of using ubuntu.
+    • User-friendly
+    • Totally free of cost
+    • It's secure. Say no to the anti-virus.
+    • Highly customizable
+    • Supportive Ubuntu community
+    • Low system requirements
+    • It's open-source
+    • Tons of free software
+
+Configuring Git on Ubuntu
+Implementation:
+After installing Ubuntu we have to install git and configure the git profile. We have to follow some steps from the Ubuntu terminal. Those are shown below.
+    • sudo apt install git
+    • git --version
+    • git config --global user.name “istyaque-ahammed”
+    • git config --global user.email “istyaque2040@cseku.ac.bd”
+    • git config --list
+Then we need to show check-in and check-out on git. Here we also followed some steps on the Ubuntu terminal.
+Check-in:
+    • git init
+    • git status
+    • git add Istyaque.txt
+    • git commit --m “First git file”
+    • git push origin master
+    • Verifying user id and password.
+ Check-Out:
+    • git init
+    • git clone git@github.com:istyaque-ahammed.git
+    • git pull origin master
+    • Verifying user id and password.
+Hindrance & Overcome:
+For doing this task we had to face several problems. Problems are discussed below.
+    • We faced a password authentication problem. So, we used a personal token generator to solve the problem. Then we access it with a token. 
+
+Drawbacks:
+We have to write so many codes to perform anything. It took a lot of time. We have to memorize all code for each performance. We have to do the same things again and again.
+
+Thank You
